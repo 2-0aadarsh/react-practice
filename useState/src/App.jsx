@@ -1,8 +1,9 @@
 import React from 'react'
+import RandomNumberGenerator from './exercises/05-randomNumberGenerator/RandomNumberGenerator'
 // import Counter from './exercises/01-counter/Counter'
 // import Toggle from './exercises/02-toggleButton/Toggle'
 // import ShowPassword from './exercises/03-showPassword/ShowPassword'
-import CharacterCounter from './exercises/04-characterCounter/CharacterCounter'
+// import CharacterCounter from './exercises/04-characterCounter/CharacterCounter'
 
 const App = () => {
   return (
@@ -10,7 +11,8 @@ const App = () => {
       {/* <Counter /> */}
       {/* <Toggle /> */}
       {/* <ShowPassword /> */}
-      <CharacterCounter />
+      {/* <CharacterCounter /> */}
+      <RandomNumberGenerator />
     </div>
   )
 }
