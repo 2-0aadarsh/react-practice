@@ -50,7 +50,7 @@ const Counter = () => {
 
             {/* Decrement button */}
             <button
-                className='bg-green-500 px-2 py-1 rounded-sm text-sm'
+                className='bg-red-500 px-2 py-1 rounded-sm text-sm'
                 onClick = {handleDecrement}
             >
                 Decrement
@@ -58,7 +58,7 @@ const Counter = () => {
 
             {/* Reset button */}
             <button
-                className='bg-green-500 px-2 py-1 rounded-sm text-sm'
+                className='bg-blue-500 px-2 py-1 rounded-sm text-sm'
                 onClick = {handleReset}
             >
                 Reset
