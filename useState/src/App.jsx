@@ -5,7 +5,8 @@ import React from 'react'
 // import CharacterCounter from './exercises/04-characterCounter/CharacterCounter'
 // import RandomNumberGenerator from './exercises/05-randomNumberGenerator/RandomNumberGenerator'
 // import Todo from './exercises/06-todo/Todo'
-import Like from './exercises/07-liked/Like'
+// import Like from './exercises/07-liked/Like'
+import Accordion from './exercises/08-Accordion/Accordion'
 
 const App = () => {
   return (
@@ -16,7 +17,8 @@ const App = () => {
       {/* <CharacterCounter /> */}
       {/* <RandomNumberGenerator /> */}
       {/* <Todo /> */}
-      <Like/>
+      {/* <Like/> */}
+      <Accordion />
     </div>
   )
 }
