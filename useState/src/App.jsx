@@ -4,7 +4,8 @@ import React from 'react'
 // import ShowPassword from './exercises/03-showPassword/ShowPassword'
 // import CharacterCounter from './exercises/04-characterCounter/CharacterCounter'
 // import RandomNumberGenerator from './exercises/05-randomNumberGenerator/RandomNumberGenerator'
-import Todo from './exercises/06-todo/Todo'
+// import Todo from './exercises/06-todo/Todo'
+import Like from './exercises/07-liked/Like'
 
 const App = () => {
   return (
@@ -14,7 +15,8 @@ const App = () => {
       {/* <ShowPassword /> */}
       {/* <CharacterCounter /> */}
       {/* <RandomNumberGenerator /> */}
-      <Todo />
+      {/* <Todo /> */}
+      <Like/>
     </div>
   )
 }
