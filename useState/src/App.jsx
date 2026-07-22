@@ -7,11 +7,12 @@ import React from 'react'
 // import Todo from './exercises/06-todo/Todo'
 // import Like from './exercises/07-liked/Like'
 // import Accordion from './exercises/08-Accordion/Accordion'
-import Carousel from './exercises/09-Carousel/Carousel'
+// import Carousel from './exercises/09-Carousel/Carousel'
+import ShoppingCart from './exercises/10-ShoppingCart/ShoppingCart'
 
 const App = () => {
   return (
-    <div className="min-w-screen min-h-screen h-screen">
+    <div className="min-w-screen min-h-screen">
       {/* <Counter /> */}
       {/* <Toggle /> */}
       {/* <ShowPassword /> */}
@@ -20,7 +21,8 @@ const App = () => {
       {/* <Todo /> */}
       {/* <Like/> */}
       {/* <Accordion /> */}
-      <Carousel />
+      {/* <Carousel /> */}
+      <ShoppingCart />
     </div>
   )
 }
