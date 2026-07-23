@@ -10,7 +10,8 @@ import React from 'react'
 // import Carousel from './exercises/09-Carousel/Carousel'
 // import ShoppingCart from './exercises/10-ShoppingCart/ShoppingCart'
 // import ActiveTab from './exercises/11-ActiveTab/ActiveTab'
-import Stopwatch from './exercises/12-Stopwatch/Stopwatch'
+// import Stopwatch from './exercises/12-Stopwatch/Stopwatch'
+import RegistrationForm from './exercises/13-SinglePageForm/RegistrationForm'
 
 const App = () => {
   return (
@@ -26,7 +27,8 @@ const App = () => {
       {/* <Carousel /> */}
       {/* <ShoppingCart /> */}
       {/* <ActiveTab /> */}
-      <Stopwatch />
+      {/* <Stopwatch /> */}
+      <RegistrationForm />
     </div>
   )
 }
