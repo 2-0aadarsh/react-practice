@@ -8,11 +8,12 @@ import React from 'react'
 // import Like from './exercises/07-liked/Like'
 // import Accordion from './exercises/08-Accordion/Accordion'
 // import Carousel from './exercises/09-Carousel/Carousel'
-import ShoppingCart from './exercises/10-ShoppingCart/ShoppingCart'
+// import ShoppingCart from './exercises/10-ShoppingCart/ShoppingCart'
+import ActiveTab from './exercises/11-ActiveTab/ActiveTab'
 
 const App = () => {
   return (
-    <div className="min-w-screen min-h-screen">
+    <div className="min-w-screen min-h-screen h-screen bg-slate-800">
       {/* <Counter /> */}
       {/* <Toggle /> */}
       {/* <ShowPassword /> */}
@@ -22,7 +23,8 @@ const App = () => {
       {/* <Like/> */}
       {/* <Accordion /> */}
       {/* <Carousel /> */}
-      <ShoppingCart />
+      {/* <ShoppingCart /> */}
+      <ActiveTab />
     </div>
   )
 }
