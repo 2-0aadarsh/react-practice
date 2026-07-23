@@ -9,7 +9,8 @@ import React from 'react'
 // import Accordion from './exercises/08-Accordion/Accordion'
 // import Carousel from './exercises/09-Carousel/Carousel'
 // import ShoppingCart from './exercises/10-ShoppingCart/ShoppingCart'
-import ActiveTab from './exercises/11-ActiveTab/ActiveTab'
+// import ActiveTab from './exercises/11-ActiveTab/ActiveTab'
+import Stopwatch from './exercises/12-Stopwatch/Stopwatch'
 
 const App = () => {
   return (
@@ -24,7 +25,8 @@ const App = () => {
       {/* <Accordion /> */}
       {/* <Carousel /> */}
       {/* <ShoppingCart /> */}
-      <ActiveTab />
+      {/* <ActiveTab /> */}
+      <Stopwatch />
     </div>
   )
 }
