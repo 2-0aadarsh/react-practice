@@ -11,7 +11,8 @@ import React from 'react'
 // import ShoppingCart from './exercises/10-ShoppingCart/ShoppingCart'
 // import ActiveTab from './exercises/11-ActiveTab/ActiveTab'
 // import Stopwatch from './exercises/12-Stopwatch/Stopwatch'
-import RegistrationForm from './exercises/13-SinglePageForm/RegistrationForm'
+// import RegistrationForm from './exercises/13-SinglePageForm/RegistrationForm'
+import RegistrationForm from './exercises/14-MultiStepForm/RegistrationForm'
 
 const App = () => {
   return (
@@ -28,6 +29,7 @@ const App = () => {
       {/* <ShoppingCart /> */}
       {/* <ActiveTab /> */}
       {/* <Stopwatch /> */}
+      {/* <RegistrationForm /> */}
       <RegistrationForm />
     </div>
   )
