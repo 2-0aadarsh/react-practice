@@ -12,7 +12,8 @@ import React from 'react'
 // import ActiveTab from './exercises/11-ActiveTab/ActiveTab'
 // import Stopwatch from './exercises/12-Stopwatch/Stopwatch'
 // import RegistrationForm from './exercises/13-SinglePageForm/RegistrationForm'
-import RegistrationForm from './exercises/14-MultiStepForm/RegistrationForm'
+// import RegistrationForm from './exercises/14-MultiStepForm/RegistrationForm'
+import Pagination from './exercises/15-Pagination/Pagination'
 
 const App = () => {
   return (
@@ -30,7 +31,8 @@ const App = () => {
       {/* <ActiveTab /> */}
       {/* <Stopwatch /> */}
       {/* <RegistrationForm /> */}
-      <RegistrationForm />
+      {/* <RegistrationForm /> */}
+      <Pagination />
     </div>
   )
 }
